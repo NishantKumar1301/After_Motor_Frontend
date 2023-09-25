@@ -1,0 +1,42 @@
+.main-header {
+  width: 100%;
+  height: 3.3rem;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 2px;
+  left:0;
+  background: rgb(252, 250, 250);
+  box-shadow: 2px 4px 8px rgba(218, 244, 122, 0.26);
+  border : 1px solid rgb(127, 252, 121);
+  padding: 1.2rem 1.5rem;
+  z-index: 6;
+  border-radius: 1.2rem;
+}
+
+main {
+  margin-top: 2rem;
+}
+
+.after{
+    font-size: 3rem;
+    font-weight: bold;
+    align-items: center;
+    color:rgb(20, 1, 11);
+}
+.motor{
+    font-size: 3rem;
+    align-items: center;
+    font-weight: bold;
+    color:rgb(9, 82, 9);
+}
+a{
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+    .after{
+        margin:0 0 0 26rem;
+    }
+    
+}
